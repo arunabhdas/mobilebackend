@@ -11,3 +11,6 @@ grails run-app
 
 Add heroku as remote as follows
 heroku git:remote -a mobilebackend
+
+Deploy to heroku as follows
+git push heroku master
