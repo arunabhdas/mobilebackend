@@ -17,7 +17,7 @@ class Product {
         // properties start with lower, rest camel-case
         // properties that you want to persist must have an explicit type
         name blank :  false, unique: true
-        description  blank: false
+        description  blank: false, maxSize: 1000
         price nullable: true
         status inList: ["Available", "Unavailable"]
 
