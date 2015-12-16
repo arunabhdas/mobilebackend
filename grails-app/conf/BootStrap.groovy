@@ -5,9 +5,6 @@ class BootStrap {
 
     def init = { servletContext ->
 
-    }
-    def init = { servletContext ->
-
         def spaceTag = new Tag(name: 'Space').save()
         def terrestrialTag = new Tag(name: 'Terrestrial').save()
 
