@@ -4,5 +4,7 @@ class TagController {
 
     def scaffold = true
 
-    def index() {}
+    // def index() {}
+
+    def list = {}
 }
